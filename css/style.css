@@ -1,0 +1,141 @@
+/* comando para resetar as margens */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --first-color: rgb(255, 255, 255);
+    --second-color: rgb(54, 0, 32);
+    --shadow-color: rgb(0, 0, 0);  
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: 'Varta', sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+
+    background-color: var(--first-color);
+}
+
+.banner {
+    background:url(../img/banner.jpeg) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 45vh;
+
+    text-align: center;
+
+    color: var(--first-color);
+}
+
+.banner_titulo {
+    font-size: 5rem;
+    line-height: 4.5rem;
+    text-shadow: 1.5px 1.5px var(--shadow-color);
+}
+
+.banner_descricao {
+    font-size: 1.7rem;
+    text-shadow: 1.5px 1.5px var(--shadow-color);
+}
+
+.botao {
+    border-radius: 2rem;
+    border-width: 0;
+
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+
+    font-size:1rem;
+    text-transform: uppercase;
+}
+
+.botao_branco {
+    background-color: var(--first-color);
+
+    cursor: pointer;
+}
+
+#habilidades_branco {
+    color: var(--second-color);
+}
+
+.botao_vinho {
+    background-color: var(--second-color);
+
+    cursor: pointer;
+}
+
+#habilidades_vinho {
+    color: var(--first-color);
+}
+
+.container {
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.sobre_titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--second-color);
+
+    margin: 20px;
+}
+
+.sobre_descricao, .sobre_habilidades {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+
+    text-align: justify;
+}
+
+.sobre_habilidades {
+    margin-left: 40px;
+}
+
+.footer {
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.redes_sociais_links {
+    display: inline-block;
+    line-height: 2.0rem;
+
+    background-color: var(--second-color);
+    color: var(--first-color);
+
+    width: 150px;
+    height: 150px;
+    padding: 2rem 0;
+    margin: 0 1rem;
+}
+
+.redes_sociais_img {
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    font-size: 1.3rem;
+}
